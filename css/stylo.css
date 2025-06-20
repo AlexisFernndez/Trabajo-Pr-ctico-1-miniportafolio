@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;  
+}
+
+body {
+    background-image: url(../img/fondo.img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 200px 50% 100px 50%;
+    text-align:center;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#biografia {
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    width: 700px;
+
+}
