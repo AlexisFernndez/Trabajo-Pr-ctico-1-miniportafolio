@@ -11,35 +11,72 @@ body {
     background-repeat: no-repeat;
 }
 
-header {
+header nav {
     color: aliceblue;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 200px 50% 100px 50%;
+    margin: 0px 50% 100px 50%;
+    white-space: nowrap;
+    
+}
+
+header nav .menu {
+    background-color: rgba(240, 248, 255, 0.448);
+    font-size: large;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
 }
 
-h1 {
-    font-size: 60px;
+header nav .menu a {
+    color: aliceblue;
+    padding: 16px 12px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 6px solid transparent;
+    transition: border .3s ease;
 }
 
-.bio {
+header nav .menu a:hover {
+    border-bottom-color: rgb(255, 85, 85);
+}
+
+main .titulo {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin: 20px 50% 60px 50%;
+    white-space: nowrap;
+}
+
+main .titulo h1 {
+    font-size: 60px;
+    margin: 0 ;
+    padding: 5px;
+
+}
+
+main section.bio {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
 
-#biografia {
+main section div#biografia {
     text-align: center;
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     width: 700px;
+    background-color: rgba(255, 255, 255, 0.448);
+    padding: 5px;
+    border-radius: 6px;
 
 }
 
-.img {
+div img.img {
     width: 140px;
     height: 140px;
     border-radius: 300px;
@@ -47,3 +84,28 @@ h1 {
     margin: 40px 40px 10px 40px;
     
 }
+
+main section div#redes {
+    margin: 20px;
+
+}
+
+main section div#redes a.logo {
+    display: inline-flex;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    color: aliceblue;
+    margin: 4px;
+    font-size: 30px;
+    padding: 5px;
+
+}
+footer div.derechos{
+    text-align:center;
+    color: aliceblue;
+    margin: 5px 50% 0px 50%;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+} 
