@@ -1,1 +1,1 @@
-Primer actividad del curso, mi primer mini-portfolio. espero les guste
+Primer actividad del curso, mi primer mini-portfolio. espero les guste.
