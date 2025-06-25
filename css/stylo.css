@@ -101,10 +101,14 @@ main section div#redes a.logo {
     padding: 5px;
 
 }
+footer {
+    margin: 0;
+}
+
 footer div.derechos{
     text-align:center;
     color: aliceblue;
-    margin: 5px 50% 0px 50%;
+    margin: 27px 50% 0px 50%;
     display: flex;
     justify-content: center;
     white-space: nowrap;
